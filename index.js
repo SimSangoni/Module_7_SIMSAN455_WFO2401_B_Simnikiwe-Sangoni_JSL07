@@ -25,8 +25,14 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   
       // 🚨 Generate certificate content dynamically
-      certificateContent. = `
+      certificateContent.textContent = `
+      Certificate of Achievement
+      This is to certify that
       <h3>${studentName}</h3>
+      has almost completed the 
+      ${courseName}
+      with legendary perseverence and world-class bad-assery for never giving up 🏆
+      ${personalMessage}
     `;
     
       //  Display the modal
