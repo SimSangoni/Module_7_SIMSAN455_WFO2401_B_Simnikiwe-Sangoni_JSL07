@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
 body {
-    font-family: 'Raleway', serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   background-color: #f0f0f0;
   margin: 0;
@@ -81,7 +84,7 @@ button:hover {
 }
 
 #certificateContent {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', sans-serif;
   color: #333;
   padding: 20px;
   background-color: #f9f9f9;
@@ -90,7 +93,14 @@ button:hover {
   margin: 20px 0;
 }
 
+#certificateContent img {
+  max-width: 50%;
+  margin: 0 auto; 
+}
+
+
 h1, .modal-content h2, .modal-content p {
+  font-family: 'Raleway', serif;
   color: #5d5f5e;
 }
 
