@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   
       // 🚨 Generate certificate content dynamically
-      certificateContent.textContent = `
+      certificateContent.innerHTML = `
       Certificate of Achievement
       This is to certify that
       <h3>${studentName}</h3>
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ${personalMessage}
     `;
       // Append the certificate content as a child of the modal content
-      modal.appendChild(certificateContent)
+      // modal.appendChild(certificateContent)
 
       //  Display the modal
       modal.style.display = 'block';
